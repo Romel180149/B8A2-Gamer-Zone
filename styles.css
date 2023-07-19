@@ -25,14 +25,19 @@ nav {
     display: flex;
     width: 50%;
 }
+
+
 .logo-container img{
  width: 100px;
  margin: 20px;
+
  
 }
+
 .logo-container p{
-    font-size: 30px;
-  
+    font-size: 40px;
+  font-weight: 500;
+ margin: 20px;
 }
 .logo-container .g-section{
     color: deeppink;
@@ -156,7 +161,7 @@ nav {
 }
 .go-rogue{
     width: 70px;
-    background-color: skyblue;
+    background-color:skyblue;
     padding: 15px 15px 10px 10px;
     border-radius: 20px;
    color: white;
@@ -173,6 +178,7 @@ nav {
     width: 200px;
     cursor: pointer;
     border-radius: 50px 60px;
+    color: deeppink;
 }
 .div-sec{
     width: 100%;
@@ -182,7 +188,7 @@ nav {
 
 .div-footer{
     width: 100%;
-   height: 100vh;
+    height: 100vh;
     text-decoration-color: white;
     text-align: center;
     background-color:black;
@@ -254,6 +260,5 @@ width: 1300px;
     text-decoration: none;
 }
 .copyright{
-    
     color: white;
 }
