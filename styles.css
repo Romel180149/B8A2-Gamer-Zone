@@ -22,10 +22,8 @@ nav {
     width: 50%;
 }
 .logo-container img{
-   
-    width: 50px;
-    object-fit: cover;
-    margin-right: 20px;
+ width: 100px;
+ 
 }
 .logo-container p{
     font-size: 30px;
@@ -45,9 +43,98 @@ nav {
     text-decoration: none;
 }
 .nav-items-container .btn{
-    background-color: #0B0223;
-    padding: 10px 20px;
+    background-color:whitesmoke;
+    padding: 8px 8px 15px 10px;
+    margin: 5px 8px;
     font-weight: 700;
-    border-radius: 5px;
+    border-radius: 5px; 
     
+}
+.fa-youtube{
+   color: red;
+}
+ .fa-tiktok{
+    padding: 3px;
+    margin: 3px;
+}
+.banner-container{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+.banner-text{
+  align-items: flex-start;
+  
+}
+.banner-text h1{
+    background-image: linear-gradient(to bottom, red,blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 45px;
+}
+
+.banner-img img{
+    width: 100%;
+    height: 450px;
+}
+.funny-text{
+    background-image: linear-gradient(to bottom, red,blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 15px;
+}
+.banner-title{
+    text-align: center;
+}
+.grid-container{
+    width: 80%;
+    text-align: center;
+    font-size: 15px;
+    border: 50px;
+    display:flex;
+}
+
+.grid-container img{
+    display: grid;
+    max-width: 1400px;
+    min-height: 400px;
+    margin: 20px auto 0;
+   grid-template-columns: repeat(4,1fr);
+   border-radius: 10px;
+   padding: 0 10px;
+
+}
+
+.div-footer{
+    width: 100%;
+    height: 40vh;
+    text-decoration-color: white;
+    text-align: center;
+    background-color:black;
+    
+}
+.logo-footer{
+font-size: 30px;
+}
+.logo-footer .footer-amer{
+    color: white;
+}
+.footer-section{
+    color: deeppink;
+}
+.sign-in{
+    background-color: deeppink;
+    color: white;
+    padding: 15px 15px 10px 10px;
+    border-radius: 20px;
+    margin: 10px 10px;
+    height: 5px 5px;
+}
+.go-rogue{
+    background-color: skyblue;
+    padding: 15px 15px 10px 10px;
+    border-radius: 10px;
+   color: white;
+    border-radius: 20px;
+   
 }
