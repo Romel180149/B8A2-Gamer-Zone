@@ -164,6 +164,7 @@ nav {
     padding: 15px 15px 10px 10px;
     border-radius: 30px;
     margin: 10px 10px;
+    border: none;
     
 }
 .go-rogue{
@@ -173,6 +174,7 @@ nav {
     border-radius: 20px;
    color: white;
     border-radius: 20px;
+    border: none;
    
 }
 .div-sec:hover{
@@ -241,6 +243,9 @@ justify-content: center;
 }
   .fa-facebook{
     color: blue;
+    width: 30px;
+    height: 5px;
+    row-gap: 10px;
 }
 
 
@@ -266,7 +271,23 @@ width: 1300px;
    margin: 50px;
     color:white;
     text-decoration: none;
+    margin: 20px;
+    padding-bottom: 20px;
 }
 .copyright{
-    color: white;
+    color: whitesmoke;
+
+}
+ .fa-youtube{
+    width: 30px;
+    height: 5px;
+    row-gap: 30px;
+    row-gap: 10px;
+  
+}
+.fa-twitter{
+    width: 30px;
+    height: 5px;
+    row-gap: 10px;
+  
 }
