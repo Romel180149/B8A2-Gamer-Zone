@@ -141,12 +141,19 @@ nav {
     align-items: center;
 }
 .banner-sec-3 .image-1{
+  width: 600px;
+  border: 400px;
+  margin: 70px 50px 60px 50px;
 }
 .banner-sec-3 .image-2{
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
+    margin-left: 370px;
+    margin-right: 170px;
+    width: 310px;
+
     }
 
 
@@ -232,7 +239,7 @@ justify-content: center;
 
  
 }
- .fa-facebook{
+  .fa-facebook{
     color: blue;
 }
 
@@ -243,6 +250,7 @@ width: 1300px;
  margin: 40px;
  border: 5px;
  border-radius: 5px;
+ gap: 5px;
 
 }
 .headline{
