@@ -3,6 +3,10 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 *{
+    margin: 0px;
+    padding: 0px;
+}
+*{
     box-sizing: content-box;
 }
 nav {
@@ -23,6 +27,7 @@ nav {
 }
 .logo-container img{
  width: 100px;
+ margin: 20px;
  
 }
 .logo-container p{
@@ -64,6 +69,8 @@ nav {
 }
 .banner-text{
   align-items: flex-start;
+  margin: 80px;
+  height: 200x;
   
 }
 .banner-text h1{
@@ -86,6 +93,15 @@ nav {
 .banner-title{
     text-align: center;
 }
+.hover-container{
+    display: flex;
+}
+.hover-container .div{
+    width: 100px;
+    height: 90px;
+    margin: 50px;
+    padding: 30px;
+}
 .grid-container{
     width: 80%;
     text-align: center;
@@ -106,10 +122,18 @@ nav {
 }
 .banner-sec-3{
     display: flex;
+    justify-content: center;
+}
+.section-3-text{
+    justify-content: center;
+    text-align: center;
 }
 .image-section{
     position: relative;
-    z-index: 1;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
 }
 .banner-sec-3 .image-1{
 }
@@ -118,25 +142,42 @@ nav {
     top: 0;
     left: 0;
     z-index: 2;
-   
     }
 
 
 .sign-in{
+    width: 70px;
     background-color: deeppink;
     color: white;
     padding: 15px 15px 10px 10px;
-    border-radius: 20px;
+    border-radius: 30px;
     margin: 10px 10px;
-    height: 5px 5px;
+    
 }
 .go-rogue{
+    width: 70px;
     background-color: skyblue;
     padding: 15px 15px 10px 10px;
-    border-radius: 10px;
+    border-radius: 20px;
    color: white;
     border-radius: 20px;
    
+}
+.div-sec:hover{
+    background-color:none;
+    border-radius: 5px;
+    border: 1px solid pink;
+    margin: 40px 50px;
+    padding: 80px 90px;
+    height: 100px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 50px 60px;
+}
+.div-sec{
+    width: 100%;
+    height: 100%;
+    margin: 70px;
 }
 
 .div-footer{
@@ -181,6 +222,7 @@ justify-content: center;
     height: 60px;
     width: 100px;
     margin: 50px;
+    
 
  
 }
@@ -192,7 +234,7 @@ justify-content: center;
 .icon-btn{
 width: 1300px;
  height: 60px;
- margin: 20px;
+ margin: 40px;
  border: 5px;
  border-radius: 5px;
 
@@ -212,5 +254,6 @@ width: 1300px;
     text-decoration: none;
 }
 .copyright{
+    
     color: white;
 }
