@@ -28,7 +28,7 @@ nav {
 
 
 .logo-container img{
- width: 100px;
+ width: 70px;
  margin: 20px;
 
  
@@ -38,6 +38,8 @@ nav {
     font-size: 40px;
   font-weight: 500;
  margin: 20px;
+text-align: left;
+padding-left:0px;
 }
 .logo-container .g-section{
     color: deeppink;
@@ -197,19 +199,22 @@ nav {
     height: 100%;
     margin: 70px;
 }
+.div-sec .wrap{
+    flex-wrap: nowrap;
+}
 
-.div-footer{
+footer{
     width: 100%;
     height: 100vh;
-    text-decoration-color: white;
+    text-decoration: #FFFFFF;
     text-align: center;
     background-color:black;
-   
-    
+    font-size: 15px;
+
 }
 .footer-sec{
     margin-top: 20px;
-    
+ 
 }
 
 .logo-footer{
@@ -219,12 +224,17 @@ margin: 50px;
 width: 1200px;
 height: 60px;
 justify-content: center;
+margin-bottom: 25px;
 }
 .logo-footer .footer-amer{
     color: white;
 }
 .logo-footer,.footer-section{
     color: deeppink;
+}
+.logo-footer img{
+    width: 60px;
+    height: 25px;
 }
 
 .footer-item{
@@ -258,7 +268,8 @@ width: 1300px;
  margin: 40px;
  border: 5px;
  border-radius: 5px;
- gap: 5px;
+ gap: 20px 10px 10px;
+ 
 
 }
 .headline{
@@ -279,13 +290,14 @@ width: 1300px;
 }
 .copyright{
     color: whitesmoke;
+    margin: 15px;
 
 }
  .fa-youtube{
     width: 30px;
     height: 5px;
     row-gap: 30px;
-    row-gap: 10px;
+    
   
 }
 .fa-twitter{
